@@ -378,28 +378,23 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m 
- \033[1;32m█████╗ ██╗     ██╗██╗   ██╗ █████╗ ███╗   ██╗
-\033[1;33m██╔══██╗██║     ██║╚██╗ ██╔╝██╔══██╗████╗  ██║
-\033[1;32m███████║██║     ██║ ╚████╔╝ ███████║██╔██╗ ██║
-\033[1;33m██╔══██║██║     ██║  ╚██╔╝  ██╔══██║██║╚██╗██║
-\033[1;32m██║  ██║███████╗██║   ██║   ██║  ██║██║ ╚████║
-\033[1;33m╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝
-                                              
+logo = ("""\033[0;35m   
+\033[0;33m███████╗ █████╗      ██╗██╗   ██╗    \033[0;32m██╗  ██╗
+\033[0;31m██╔════╝██╔══██╗     ██║██║   ██║    \033[0;35m╚██╗██╔╝
+\033[0;33m███████╗███████║     ██║██║   ██║     \033[0;32m╚███╔╝ 
+\033[0;31m╚════██║██╔══██║██   ██║██║   \033[0;35m██║     ██╔██╗ 
+\033[0;33m███████║██║  \033[0;32m██║╚█████╔╝╚██████╔╝    ██╔╝ ██╗
+\033[0;31m╚══════╝╚═╝  ╚═╝ ╚════╝  ╚═════╝     \033[0;35m╚═╝  ╚═╝
+ ________________________________________________________
+__________________________________________________________
 
-
-
-\033[1;32mNAM TO SUNA HOGA SAJUx
-\033[;33mCLEAR FECBOOK DATA TO OEPN CP ID JUST NOW
-\033[;32mMAZA NA AYE PASSY WAPIS 😁🖕
-        
- 
-••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
-  \033[1;32mAuther  : SAJUx TRICKER
-  \033[1;33mYouTube : SAJUx TRICKER
-  \033[1;32mFecbook : SAJUx TRICKER
-   \033[1;33m Admin. : SAJUx TRICKER
-••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
+ [[M]] Facebook page : DEEP EMOTION
+ [[E]] DEVELOPER : SAJU x
+ [[H]] FACEBOOK  : ARIYAN SAJU
+ [[E]] GITHUB    : ARIYAN SAJU
+ [[D]] TOOLS     : FILE CLONIG
+ [[I]] VERSION   : PAID[V-1.5]                                     
+________________________________________________________\033[1;32m""")
 
 class Main:
 	def __init__(self):
@@ -489,7 +484,7 @@ class Main:
 
 	def api(self, uid, pwx):
 		rua = random.choice([
-			"Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z007;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]",
+			"Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106..0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z007;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]",
 			  "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E)",
   "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)",
   "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; CMDTDF; .NET4.0C; .NET4.0E; GWX:QUALIFIED)",
