@@ -78,7 +78,7 @@ def clear():
 def back():
 	login()
 
-ah="x-"
+ah="TRICKER-"
 imt="-M4786=="
 ak=" SAJUx-"
 myid=uuid.uuid4().hex[:10].upper()
@@ -378,24 +378,28 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[0;35m   
-\033[0;33m███████╗ █████╗      ██╗██╗   ██╗    \033[0;32m██╗  ██╗
-\033[0;31m██╔════╝██╔══██╗     ██║██║   ██║    \033[0;35m╚██╗██╔╝
-\033[0;33m███████╗███████║     ██║██║   ██║     \033[0;32m╚███╔╝ 
-\033[0;31m╚════██║██╔══██║██   ██║██║   \033[0;35m██║     ██╔██╗ 
-\033[0;33m███████║██║  \033[0;32m██║╚█████╔╝╚██████╔╝    ██╔╝ ██╗
-\033[0;31m╚══════╝╚═╝  ╚═╝ ╚════╝  ╚═════╝     \033[0;35m╚═╝  ╚═╝
- ________________________________________________________
-__________________________________________________________
+logo = ("""\033[1;32m 
+ \033[1;32m█████╗ ██╗     ██╗██╗   ██╗ █████╗ ███╗   ██╗
+\033[1;33m██╔══██╗██║     ██║╚██╗ ██╔╝██╔══██╗████╗  ██║
+\033[1;32m███████║██║     ██║ ╚████╔╝ ███████║██╔██╗ ██║
+\033[1;33m██╔══██║██║     ██║  ╚██╔╝  ██╔══██║██║╚██╗██║
+\033[1;32m██║  ██║███████╗██║   ██║   ██║  ██║██║ ╚████║
+\033[1;33m╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝
+                                              
 
- [[M]] Facebook page : DEEP EMOTION
- [[E]] DEVELOPER : SAJU x
- [[H]] FACEBOOK  : ARIYAN SAJU
- [[E]] GITHUB    : ARIYAN SAJU
- [[D]] TOOLS     : FILE CLONIG
- [[I]] VERSION   : PAID[V-1.5]                                     
-________________________________________________________
-                                              """)
+
+
+\033[1;32mNAM TO SUNA HOGA SAJUx
+\033[;33mCLEAR FECBOOK DATA TO OEPN CP ID JUST NOW
+\033[;32mMAZA NA AYE PASSY WAPIS 😁🖕
+        
+ 
+••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
+  \033[1;32mAuther  : SAJUx TRICKER
+  \033[1;33mYouTube : SAJUx TRICKER
+  \033[1;32mFecbook : SAJUx TRICKER
+   \033[1;33m Admin. : SAJUx TRICKER
+••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
 
 class Main:
 	def __init__(self):
@@ -1313,7 +1317,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/AriyanSaju/Saju/blob/main/Approval.txt.").text
+	r1=requests.get("https://github.com/AriyanSaju/Saju/blob/main/Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1326,8 +1330,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m SAJUx Toll  PAID You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : SAJUx PAID ONLY   \033[1;37m")
+		print(" \033[1;32m SAJUx PAID You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note : SAJUx PAID    \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -1335,9 +1339,9 @@ def Subscraption():
 		print ("")
 		print (" Your Key : "+ak+ah+key1 )
 		print ("")
-		name = input(" YOUR FIRST NANE : ")
+		name = input(" Your first Name : ")
 		print ("")
-		gf = input(" YOUR LAST NAME : ")
+		gf = input(" Your last Name : ")
 		print ("")
 		lol = input(" Your Your Email : ")
 		print ("")
