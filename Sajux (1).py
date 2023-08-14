@@ -1313,7 +1313,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/AriyanSaju/Approval/blob/main/Sajux.txt.").text
+	r1=requests.get("https://github.com/AriyanSaju/Saju/blob/main/Approval.txt.").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1326,7 +1326,7 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m SAJUx Toll Free BUT You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m SAJUx Toll  PAID You Need Get Approved First\033[1;37m\n")
 		print(" \033[1;32m Note : SAJUx PAID ONLY   \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
